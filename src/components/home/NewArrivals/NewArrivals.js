@@ -8,6 +8,12 @@ import {
   newArrThree,
   newArrFour,
   home1,
+  sofa6,
+  sofa5,
+  set3,
+  chair10,
+  sofa10,
+  sofa4,
 } from "../../../assets/images/index";
 import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
@@ -54,56 +60,56 @@ const NewArrivals = () => {
         <div className="px-2">
           <Product
             _id="100001"
-            img={home1}
-            productName="Furniture"
-            price="44.00"
-            color="Black"
+            img={set3}
+            productName="Furniture Set"
+            price="9999.00"
+            color="Brown and White"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Transform your living space with our versatile furniture set, combining style and functionality to create a cohesive and inviting environment."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100002"
-            img={home1}
-            productName="Furniture"
+            img={sofa6}
+            productName="ColorFull Sofa"
             price="250.00"
-            color="Black"
+            color="mixed"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Introducing our color-mixed sofa, a vibrant fusion of hues that brings both style and personality to your living space"
           />
         </div>
         <div className="px-2">
           <Product
             _id="100003"
-            img={home1}
-            productName="Furniture"
-            price="80.00"
-            color="Mixed"
+            img={chair10}
+            productName="New Model Chair"
+            price="808.00"
+            color="brown"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Discover our latest model chair, blending contemporary design with ergonomic comfort for a stylish and functional addition to any space."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100004"
-            img={home1}
-            productName="Furniture"
-            price="60.00"
-            color="Mixed"
+            img={sofa10}
+            productName="New Model Sofa"
+            price="600.00"
+            color="Browny White"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Elevate your living space with our luxurious sofa, designed for both comfort and style, offering a perfect blend of elegance and relaxation."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100005"
-            img={home1}
-            productName="Furniture"
-            price="60.00"
+            img={sofa4}
+            productName="Serenity Sofa" 
+            price="470.00"
             color="Mixed"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Small yet stylish, the Serenity Sofa offers comfort and elegance in compact spaces."
           />
         </div>
       </Slider>

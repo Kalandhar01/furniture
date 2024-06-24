@@ -80,6 +80,42 @@ import home2 from "../images/Mycollectuin/home2.jpg"
 import home3 from "../images/Mycollectuin/home3.jpg"
 import home4 from "../images/Mycollectuin/home4.jpg"
 import home5 from "../images/Mycollectuin/home5.jpg"
+import bed1 from "../images/Mycollectuin/New/bed1.jpg"
+import bed2 from "../images/Mycollectuin/New/bed2.jpg"
+import bed3 from "../images/Mycollectuin/New/bed3.jpg"
+import chair1 from "../images/Mycollectuin/New/chair1.jpg"
+import chair2 from "../images/Mycollectuin/New/chair2.jpg"
+import chair3 from "../images/Mycollectuin/New/chair3.jpg"
+import chair4 from "../images/Mycollectuin/New/chair4.jpg"
+import chair5 from "../images/Mycollectuin/New/chair5.jpg"
+import chair6 from "../images/Mycollectuin/New/chair6.jpg"
+import chair7 from "../images/Mycollectuin/New/chair7.jpg"
+import chair8 from "../images/Mycollectuin/New/chair8.jpg"
+import chair9 from "../images/Mycollectuin/New/chair9.jpg"
+import chair10 from "../images/Mycollectuin/New/chair10.jpg"
+import chair11 from "../images/Mycollectuin/New/chair11.jpg"
+import homemai from "../images/Mycollectuin/New/homemai.jpg"
+import set1 from "../images/Mycollectuin/New/set1.jpg"
+import set2 from "../images/Mycollectuin/New/set2.jpg"
+import set3 from "../images/Mycollectuin/New/set3.jpg"
+import set4 from "../images/Mycollectuin/New/set4.jpg"
+import set5 from "../images/Mycollectuin/New/set5.jpg"
+
+import shofa1 from "../images/Mycollectuin/New/shofa1.jpg"
+import shofa2 from "../images/Mycollectuin/New/shofa2.jpg"
+import shofa3 from "../images/Mycollectuin/New/shofa3.jpg"
+import sofa4 from "../images/Mycollectuin/New/sofa4.jpg"
+import sofa5 from "../images/Mycollectuin/New/sofa5.jpg"
+import sofa6 from "../images/Mycollectuin/New/sofa6.jpg"
+import sofa7 from "../images/Mycollectuin/New/sofa7.jpg"
+import sofa8 from "../images/Mycollectuin/New/sofa8.jpg"
+import sofa9 from "../images/Mycollectuin/New/sofa9.jpg"
+import sofa10 from "../images/Mycollectuin/New/sofa10.jpg"
+import sofa11 from "../images/Mycollectuin/New/sofa11.jpg"
+import sofa12 from "../images/Mycollectuin/New/sofa12.jpg"
+
+
+
 
 export {
 
@@ -89,6 +125,43 @@ home2,
 home3,
 home4,
 home5,
+bed1,
+bed2,
+bed3,
+chair1,
+chair2,
+chair3,
+chair4,
+chair5,
+chair6,
+chair7,
+chair8,
+chair9,
+chair10,
+chair11,
+homemai,
+set1,
+set2,
+set3,
+set4,
+set5,
+shofa1,
+shofa2,
+shofa3,
+sofa4,
+sofa5,
+sofa6,
+sofa7,
+sofa8,
+sofa9,
+sofa10,
+sofa11,
+sofa12,
+
+
+// ____________________________________my new
+
+
 
 
 

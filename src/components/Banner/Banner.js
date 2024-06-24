@@ -10,6 +10,9 @@ import {
   home3,
   home4,
   home5,
+  chair3,
+  set3,
+  sofa4,
 } from "../../assets/images";
 import Image from "../designLayouts/Image";
 
@@ -166,19 +169,19 @@ const Banner = () => {
       buttonText: "Shop Now",
     },
     {
-      imgSrc: home5,
-      text: "Enhance Your Comfort With Our Product",
+      imgSrc: sofa4,
+      text: "Timeless comfort and style redefined.",
       Subtext:
         "Explore our premium Furnitures",
       buttonLink: "/shop",
       buttonText: "About-us",
     },
     {
-      imgSrc: home5,
+      imgSrc: set3,
       text: "Enhance Your Comfort With Our Product",
       Subtext:
         "Explore our premium Furnitures ",
-      buttonLink: "/contact",
+      buttonLink: "/comntact",
       buttonText: "Contact-us",
     },
 
