@@ -13,11 +13,11 @@ const tabs = [
     id: "Description",
     label: "Description",
     content:
-      "This is the best",
+      "Cheap And Best ",
   },
   {
     id: "Video",
-    label: "Best",
+    label: "AR VIEW",
     content: (
       <iframe
         width="560"
@@ -105,7 +105,7 @@ const ProductDetails = () => {
                       <button className="inline-flex items-center px-4 py-2 border border-gray-300 bg-blue-500 hover:bg-blue-600 text-white font-bodyFont">
                         <FaDownload className="h-5 w-5 mr-2 text-white" />
                         <a
-                          href={productInfo.pdf}
+                          href=""
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-white"

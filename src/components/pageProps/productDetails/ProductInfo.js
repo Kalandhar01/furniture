@@ -4,13 +4,13 @@ import { addToCart } from "../../../redux/orebiSlice";
 
 const ProductInfo = ({ productInfo }) => {
   const highlightStyle = {
-    color: "#d0121a", // Change this to the desired color
-    fontWeight: "bold", // Change this to the desired font weight
+    color: "#d0121a", 
+    fontWeight: "bold",
   };
 
   const renderDescription = () => {
     if (!productInfo.des) {
-      return null; // or handle accordingly if product.des is not defined
+      return null;
     }
 
     const description = productInfo.des.split(/:(.*?)-/).map((part, index) => {
@@ -28,11 +28,11 @@ const ProductInfo = ({ productInfo }) => {
     <div className="flex flex-col gap-5">
       <h2 className="text-4xl font-semibold">{productInfo.productName}</h2>
       <p className="text-2xl font-semibold">
-        {productInfo.price} Dt
-        <span className="text-xl font-semibold line-through ml-2">540</span>
-        <span className="text-xs ml-2 inline-flex items-center px-3 py-1 rounded-full bg-green-600 text-white">
+       RS {productInfo.price} Price
+        {/* <span className="text-xl font-semibold line-through ml-2">540</span> */}
+        {/* <span className="text-xs ml-2 inline-flex items-center px-3 py-1 rounded-full bg-green-600 text-white">
           Save 100
-        </span>
+        </span> */}
       </p>
       <hr />
       <p className="text-base text-gray-600">{renderDescription()}</p>
@@ -109,9 +109,9 @@ const ProductInfo = ({ productInfo }) => {
       >
         Add to Cart
       </button>
-      <p className="font-normal text-sm">
-        <span className="text-base font-medium"> Categories:</span> Comfort Collection
-      </p>
+      {/* <p className="font-normal text-sm">
+        <span className="text-base font-medium"> Categories:</span> 
+      </p> */}
     </div>
   );
 };
